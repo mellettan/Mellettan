@@ -25,10 +25,10 @@ Backend-база: FastAPI, asyncio, SQLAlchemy, PostgreSQL, Redis Streams, Celer
 
 | Проект | О чём | Стек |
 |---|---|---|
-| [**voicebot**](https://github.com/mellettan/sber_sst_ai_tts) | Голосовой ассистент в реальном времени: потоковое распознавание, ответ LLM озвучивается по предложениям, память диалога | FastAPI WebSocket, grpc.aio, SaluteSpeech, GigaChat, Redis |
+| [**voicebot**](https://github.com/mellettan/voicebot) | Голосовой ассистент в реальном времени: потоковое распознавание, ответ LLM озвучивается по предложениям, память диалога | FastAPI WebSocket, grpc.aio, SaluteSpeech, GigaChat, Redis |
 | [**web-agent**](https://github.com/mellettan/ai_agent) | AI-агент, который выполняет задачи в браузере, и MCP-сервер с инструментами браузера; работает с OpenAI и self-hosted моделями через vLLM | Playwright, function calling, MCP |
 | [**incident-api**](https://github.com/mellettan/incident_api) | Сервис учёта инцидентов: машина состояний, блокировки строк, миграции, тесты на PostgreSQL | FastAPI, SQLAlchemy 2.0 async, Alembic, mypy strict |
-| [**github-top**](https://github.com/mellettan/ecomet_tasks) | Асинхронный сбор топа GitHub с лимитами RPS/конкурентности и батчевой загрузкой в ClickHouse | aiohttp, ClickHouse, asyncpg |
-| [**url-shortener**](https://github.com/mellettan/boto_tasks) | Короткие ссылки с алиасами, сроком жизни, кэшем редиректов и rate limit | FastAPI, PostgreSQL, Redis |
-| [**dbsync**](https://github.com/mellettan/test_18022026) | CLI для синхронизации схемы и данных между базами PostgreSQL, с dry-run и режимом для CI | psycopg 3, rich |
+| [**github-top**](https://github.com/mellettan/github-top) | Асинхронный сбор топа GitHub с лимитами RPS/конкурентности и батчевой загрузкой в ClickHouse | aiohttp, ClickHouse, asyncpg |
+| [**url-shortener**](https://github.com/mellettan/url-shortener) | Короткие ссылки с алиасами, сроком жизни, кэшем редиректов и rate limit | FastAPI, PostgreSQL, Redis |
+| [**dbsync**](https://github.com/mellettan/dbsync) | CLI для синхронизации схемы и данных между базами PostgreSQL, с dry-run и режимом для CI | psycopg 3, rich |
 | [**sky**](https://github.com/mellettan/sky) | Звёздное небо в терминале: эфемериды, кометы, спутники, затмения, живые обои | numpy, sgp4 |
